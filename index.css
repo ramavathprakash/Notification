@@ -1,0 +1,77 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #ffffff;
+  box-shadow: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.imags {
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+.information-message {
+  background-color: #0b69ff;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+  width: 500px;
+  font-size: 20px;
+  height: 60px;
+}
+.success-message {
+  background-color: #2dca73;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+  width: 500px;
+  font-size: 20px;
+  height: 60px;
+}
+.warning-message {
+  background-color: #ffb800;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+  height: 60px;
+  width: 500px;
+  font-size: 20px;
+}
+.error-message {
+  background-color: #ff0b37;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+  width: 500px;
+  font-size: 20px;
+  height: 60px;
+}
